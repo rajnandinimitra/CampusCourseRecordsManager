@@ -80,41 +80,26 @@ A console-based Java application for managing students, courses, enrollments, an
 - ✅ **Date/Time API:** Creation timestamps
 - ✅ **Collections Framework:** ArrayList, List operations
 
-CampusCourseRecordsManager/
-├── 📁 src/                          # Source code
-│   ├── 📁 edu.ccrm.cli/            # Command-line interface
-│   │   └── Main.java               # Application entry point
-│   ├── 📁 edu.ccrm.domain/         # Domain models
-│   │   ├── Person.java             # Abstract base class
-│   │   ├── Student.java            # Student entity
-│   │   ├── Course.java             # Course entity  
-│   │   ├── Enrollment.java         # Enrollment entity
-│   │   ├── Instructor.java         # Instructor entity
-│   │   ├── Semester.java           # Enum: SPRING, SUMMER, FALL
-│   │   └── Grade.java              # Enum: A, B, C, D, F with points
-│   ├── 📁 edu.ccrm.service/        # Business logic
-│   │   ├── StudentService.java     # Student operations
-│   │   ├── CourseService.java      # Course operations
-│   │   └── EnrollmentService.java  # Enrollment & grading
-│   ├── 📁 edu.ccrm.io/             # File I/O operations
-│   ├── 📁 edu.ccrm.util/           # Utilities
-│   ├── 📁 edu.ccrm.config/         # Configuration
-│   └── module-info.java            # Module declaration
-│
-├── 📁 test-data/                   # Sample data for testing
-│   ├── 📄 students.csv             # Sample student data (Indian names)
-│   └── 📄 courses.csv              # Sample course data
-│
-├── 📁 screenshots/                 # Documentation screenshots
-│   ├── 📄 jdk-version.png          # JDK installation verification
-│   ├── 📄 eclipse-setup.png        # Eclipse project structure
-│   ├── 📄 main-menu.png            # Program main menu
-│   ├── 📄 courses.png              # Course management view
-│   └── 📄 students.png             # Student management view
-│
-├── 📄 README.md                    # Project documentation
-├── 📄 .gitignore                   # Git ignore rules
-└── 📄 .classpath                   # Eclipse configuration
+## 🏗️ Project Structure
+
+**Source Code (`src/`)**
+- `edu/ccrm/cli/Main.java` - Application entry point with menu system
+- `edu/ccrm/domain/` - Domain models (Student, Course, Enrollment, etc.)
+- `edu/ccrm/service/` - Business logic services
+- `edu/ccrm/io/` - File I/O operations
+
+**Test Data (`test-data/`)**
+- `students.csv` - Sample data with Indian names
+- `courses.csv` - Sample course data
+
+**Documentation (`screenshots/`)**
+- JDK installation verification
+- Eclipse setup and project structure
+- Program execution screenshots
+
+**Configuration Files**
+- `README.md` - Complete project documentation
+- `.gitignore` - Git exclusion rules
 
 ## ✅ CSV Import/Export Functionality
 
