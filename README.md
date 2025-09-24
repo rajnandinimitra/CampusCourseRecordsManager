@@ -36,7 +36,7 @@ A console-based Java application for managing students, courses, enrollments, an
 ## 🔧 Installation & Setup
 
 ### JDK Installation on macOS
-![JDK Verification](screenshots/jdk-version.png)
+![JDK Verification]
 
 1. Download JDK 21 from Oracle website
 2. Run the installer package
@@ -44,8 +44,7 @@ A console-based Java application for managing students, courses, enrollments, an
 4. Set JAVA_HOME environment variable
 
 ### Eclipse IDE Setup
-![Eclipse Project](screenshots/eclipse-project.png)
-
+![Eclipse Project]
 1. Download Eclipse IDE for Java Developers
 2. Extract and launch Eclipse
 3. Create new Java project or import existing one
