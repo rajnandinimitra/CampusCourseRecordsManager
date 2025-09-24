@@ -21,7 +21,7 @@ A console-based Java application for managing students, courses, enrollments, an
 2. **Extract the ZIP file** to your preferred location
 3. **Open Eclipse** → File → Import → Existing Projects into Workspace
 4. **Select the extracted folder** as root directory
-5. **Run `Main.java`** from `edu.ccrm.cli` package
+5. **Run `MainApp.java`** from `edu.ccrm.cli` package
 
 ## 📜 Java Evolution Timeline
 - **1996:** Java 1.0 (Oak) - Initial release
