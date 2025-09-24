@@ -1,6 +1,15 @@
 # CampusCourseRecordsManager
 # Campus Course & Records Manager (CCRM)
+## 📸 Screenshots Available in Release
 
+All application screenshots are included in the project release:
+
+### Screenshots Included:
+-  - JDK 21 verification
+-  - Eclipse setup
+- - Program main menu
+
+📦 **Download the full project ZIP from [Releases](https://github.com/your-username/CampusCourseRecordsManager/releases) to view all screenshots.**
 ## Project Overview
 A console-based Java application for managing students, courses, enrollments, and grades in an educational institution. Built with Java SE 21 following OOP principles and modern Java features.
 
