@@ -72,3 +72,44 @@ A console-based Java application for managing students, courses, enrollments, an
 - ✅ **Collections Framework:** ArrayList, List operations
 
 ## 🏗️ Project Structure
+src/
+├── edu.ccrm.cli/ # Command-line interface
+│ └── Main.java # Entry point with menu system
+├── edu.ccrm.domain/ # Domain models
+│ ├── Person.java # Abstract base class
+│ ├── Student.java # Student entity (extends Person)
+│ ├── Course.java # Course entity
+│ ├── Enrollment.java # Enrollment entity
+│ ├── Instructor.java # Instructor entity (extends Person)
+│ ├── Semester.java # Enum: SPRING, SUMMER, FALL
+│ └── Grade.java # Enum: A, B, C, D, F with grade points
+├── edu.ccrm.service/ # Business logic layer
+│ ├── StudentService.java # Student operations
+│ ├── CourseService.java # Course operations with Streams
+│ └── EnrollmentService.java # Enrollment and grading
+├── edu.ccrm.io/ # File I/O operations (CSV import/export)
+├── edu.ccrm.util/ # Utilities
+├── edu.ccrm.config/ # Configuration
+└── module-info.java # Module declaration
+
+## ✅ CSV Import/Export Functionality
+
+The application demonstrates file I/O operations with CSV files:
+
+### Features Implemented:
+- **CSV Export:** Export current student and course data to CSV format
+- **CSV Import:** Import data from properly formatted CSV files
+- **Indian Data Support:** Tested with sample data containing Indian names
+- **NIO.2 File Operations:** Uses modern Java file handling APIs
+
+### Sample CSV Format:
+ID,Name,Email,Registration Number,Status,GPA
+S001,Arjun Sharma,arjun.sharma@edu.in,2024CS1001,ACTIVE,3.8
+S002,Priya Patel,priya.patel@edu.in,2024CS1002,ACTIVE,3.6
+
+text
+
+### Usage:
+1. Place CSV files in the project directory
+2. Use the CSV menu options to import/export data
+3. Files are processed using Java NIO.2 for robust file handling
